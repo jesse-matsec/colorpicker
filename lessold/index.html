@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - iro.js custom color swatch demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <html>
+
+  <head>
+  </head>
+
+  <body>
+    <div class="wrap">
+      <div class="half">
+        <div class="colorPicker"></div>
+      </div>
+      <div class="half readout">
+        <p>
+        </p>
+        <div class="swatchGrid" id="swatch-grid">
+          <div class="swatch" data-color="#FFFFFF" style="background: #FFFFFF"></div>
+          <div class="swatch" data-color="#000000" style="background: #000000"></div>
+          <div class="swatch" data-color="#C8324D" style="background: #C8324D"></div>
+          <div class="swatch" data-color="#0E866C" style="background: #0E866C"></div>
+          <div class="swatch" data-color="#AE7609" style="background: #AE7609"></div>
+          <div class="swatch" data-color="#0AA8CA" style="background: #0AA8CA"></div>
+          <div class="swatch" data-color="#3670E2" style="background: #3670E2"></div>
+          <div class="swatch" data-color="#7259C5" style="background: #7259C5"></div>
+
+          <div class="swatch" data-color="#7259C5" style="background: #7259C5"></div>
+          <div class="swatch" data-color="#C559B3" style="background: #C559B3"></div>
+          <div class="swatch" data-color="#D26B68" style="background: #D26B68"></div>
+          <div class="swatch" data-color="#EBCA71" style="background: #EBCA71"></div>
+          <div class="swatch" data-color="#A7B88F" style="background: #A7B88F"></div>
+          <div class="swatch" data-color="#78ABAC" style="background: #78ABAC"></div>
+          <div class="swatch" data-color="#4F87B8" style="background: #4F87B8"></div>
+          <div class="swatch" data-color="#816189" style="background: #816189"></div>
+          <div class="swatch" data-color="#CB96AF" style="background: #CB96AF"></div>
+        </div>
+        <span class="title">Your color code is:</span>
+        <div id="values"></div>
+        <div>
+          <button onclick="copytoclip()">Click here to copy the value</button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+  </html>
+  <!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/@jaames/iro/dist/iro.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
